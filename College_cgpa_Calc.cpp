@@ -9,7 +9,7 @@ double CGPA_Calc( int credit[] , int grade[] , int n ){
     for ( int i = 0; i < n; i++ ){
         int product = (credit[i] * grade[i]);
         sum += product;
-       Total_credits += credit[i];
+        Total_credits += credit[i];
     }
 
     double cgpa = (double)(sum) / Total_credits;
